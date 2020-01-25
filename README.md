@@ -1,3 +1,3 @@
 # import-map-service-worker
 
-`yarn test` to test it out
+`yarn test` and go to http://localhost:5000/test/test
