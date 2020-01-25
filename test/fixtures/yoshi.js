@@ -1,6 +1,12 @@
-console.log("Yoshi module is running");
+import DonkeyKong from "./donkey-kong.js";
+import Luigi from "//importmap/luigi";
+
+console.log("Yoshi - ", "a sentient dinosaur");
+console.log("DonkeyKong - ", DonkeyKong);
+console.log("Luigi - ", Luigi);
+
 document.body.appendChild(
   Object.assign(document.createElement("p"), {
-    textContent: "Yoshi module executed!"
+    textContent: "It worked!"
   })
 );
