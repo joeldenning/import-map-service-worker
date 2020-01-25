@@ -1,0 +1,22 @@
+{
+  "name": "import-map-service-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "serve"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "author": "Joel Denning",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^4.2.1",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1",
+    "serve": "^11.3.0"
+  }
+}
